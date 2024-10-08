@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-style: italic;
+    padding-top: 10px;
+}
+p{
+    font-size: 45px;
+}
+
+.title { 
+font-weight:600;
+}
+
+#theend{
+    color: palegreen;
+}
+div{
+    padding: 50px;
+    margin:80px;
+    border: 10px solid black;
+}
