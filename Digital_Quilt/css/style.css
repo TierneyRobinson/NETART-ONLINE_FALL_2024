@@ -1,0 +1,111 @@
+* { 
+  margin: 0;  
+}
+.flex-container {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    
+    height: 100vh;                  
+    width: 100vw;
+    background-color: black;
+}
+.flex-item {
+    flex: 1 0 40%;
+    background-image: linear-gradient(to right, white , pink);
+
+}
+.flex-item2 {
+    flex: 1 0 10%;
+
+    background-image: linear-gradient(to right, orange , aqua);
+
+}
+.flex-item3 {
+    flex: 1 0 7%;
+    background-image: linear-gradient(to right, gold , greenyellow);
+
+}
+.flex-item4 {
+    flex: 1 0 30%;
+    background-image: linear-gradient(to right, #e6c7ff , pink);
+
+}
+.flex-item5 {
+    flex: 1 0 20%;
+    background-image: linear-gradient(to right, skyblue , lightgoldenrodyellow);
+
+}
+.flex-item6 {
+    flex: 1 0 7%;
+    background-image: linear-gradient(to right, coral , pink);
+
+}
+.flex-item7 {
+    flex: 1 0 17%;
+    background-image: linear-gradient(to right, bisque , yellow);
+
+}
+.flex-item8 {
+    flex: 1 0 2%;
+    background-image: linear-gradient(to right, bisque , #faa291);
+
+}
+.flex-item9 {
+    flex: 1 0 6%;
+    
+    background-image: linear-gradient(to right, powderblue , pink);
+
+}
+.flex-item10{
+    flex: 1 0 2%;
+    background-image: linear-gradient(to right, orange , darkseagreen);
+
+}
+.flex-item11 {
+    flex: 1 0 8%;
+    background-image: linear-gradient(to right, #d6ff8a , #ffb78a);
+
+}
+.flex-item12 {
+    flex: 1 0 25%;
+    background-image: linear-gradient(to right, #fc9af6 , #8aff98);
+
+}
+.flex-item13 {
+    flex: 1 0 1%;
+    background-image: linear-gradient(to right, #8ce0fa , #fcc3b8);
+
+}
+.flex-item14 {
+    flex: 1 0 3%;
+    background-image: linear-gradient(to right, #fa8cd9 , #fafa8c);
+
+}
+.flex-item15 {
+    flex: 1 0 13%;
+    background-image: linear-gradient(to right, #75d3ff , #ffbffa);
+
+}
+.flex-item16 {
+    flex: 1 0 9%;
+    background-image: linear-gradient(to right, #8cfaeb , #f1fa8c);
+
+}
+.flex-item17 {
+    flex: 1 0 20%;
+    background-image: linear-gradient(to right, #adffe1 , #adadff);
+
+}
+.flex-item18 {
+    flex: 1 0 30%;
+    background-image: linear-gradient(to right, #d6bfff , #bfffd8);
+
+}.flex-item19 {
+    flex: 1 0 5%;
+    background-image: linear-gradient(to right, #f4ffbf , #bfe2ff);
+
+}.flex-item20 {
+    flex: 1 0 10%;
+    background-image: linear-gradient(to right, #4df6ff , #edfcb8);
+
+}
