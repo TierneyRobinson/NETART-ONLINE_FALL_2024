@@ -1,0 +1,158 @@
+/*I didn't copy any css */
+.bgtransition{
+        position: fixed;
+            background-color: #ffedfe;
+    top:0;
+            width: 100%;
+            height: 100%;
+    transition: 1.3s;
+    z-index: -3;
+
+
+}
+.invrtbg{
+    display: none;
+    filter: invert(100%); 
+ z-index:-2;
+}
+.movethemouse{
+    width:200px;
+    height: 50px; 
+    z-index:0;
+    padding-top:10px;
+    margin:0;
+    top:0;
+   background-color:white;
+        text-align: center;
+    position:fixed;
+
+   
+}
+.text{
+    font-family: helvetica;
+    font-size: 15px;
+}
+button{
+    position: fixed;
+    top:60px;
+    left:0px;
+    padding-top:10px;
+    margin:0;
+    border:none;
+    color:grey;
+    text-align: center;
+    background-color: transparent;
+       transition: .7s;
+}
+button:hover{
+    color:white;
+    font-size:15.5px;
+    transition: .7s;
+}
+.butn1{
+  flex:auto;  
+}
+
+.butn2{
+    display:none;
+    position: absolute;
+    top: 550px;
+    right:30px;
+    margin:0;
+    text-align: right;
+    background-color: transparent;
+       animation: appr 2.5s;
+    transition: smooth;
+
+
+}
+
+
+@keyframes appr {
+    
+    0% {
+        color: transparent;
+    }
+        40% {
+        color:transparent ;
+    }
+        100% {
+        color: black;
+    }
+}
+  
+    
+
+.textappear{
+    display:none;
+    position: fixed;
+        font-family: helvetica;
+    font-size: 150px;;
+    color:white;
+        text-align: center;
+    width:90vw;
+    height:55vh;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.colorChange{
+      animation: colorChanges 10s infinite;
+    transition:smooth;
+}
+@keyframes colorChanges {
+    
+    0% {
+        color: white;
+    }
+        20% {
+        color: #ffd900;
+    }
+      40%{ color: #3a8a73;
+          
+    }
+
+    60% {
+        color: #704e91;
+    }
+
+    80% {
+        color: #914e7e;
+    }
+
+     
+    100%{ color:white;
+          
+    }  
+  
+}
+
+#squr{
+display:flex;
+    position: fixed;
+    width:90vw;
+    height:35vh;
+    background-color: white;
+  margin:inherit;
+    z-index: -1;
+ top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+.ballcontainer{
+    display:flex;
+    position: fixed;
+    width:90vw;
+    height:35vh;
+    background-color: transparent;
+  margin:inherit;
+    z-index: -1;
+ top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
