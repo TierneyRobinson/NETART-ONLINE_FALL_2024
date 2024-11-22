@@ -1,0 +1,262 @@
+body {
+    background-color: #dbdbdb;
+    padding: 20px;
+    margin:0;
+}
+
+
+
+p {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+a:visited{
+    text-decoration: underline;
+    color:blue;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    background-image: linear-gradient(to right, white, white, black);
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-color: black;
+}
+
+.header > div {
+
+    font-size: 20px;
+    flex-direction: row;
+
+}
+
+.auction {
+    color: white;
+    background-color: black;
+    border: black 2px;
+}
+
+.web {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.navBar {
+    width: 100%;
+    height;
+    10%;
+    display: inline-block;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border-style: solid;
+    border-top: black;
+    border-right: black;
+    border-left: black;
+}
+
+
+.left {
+    width: 30%;
+    display: block;
+    float: left;
+    padding-left: 0px;
+}
+.ltext{
+       width: 70%;
+    display: block;
+    padding-top: 100px;
+    
+}
+
+.right {
+    width: 50%;
+    display: block;
+    float: right;
+
+    height: 90vh;
+}
+.rtext{
+       width: 100%;
+    display: block;
+    padding-top: 100px;
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .left {
+        width: 60%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+       
+    }
+
+    .right {
+        width: 80%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+
+.curtext{
+    width:50%;
+    position: relative;
+   display: flex;
+     justify-content: center;
+    justify-items: center;
+    justify-self: center;
+
+}
+
+
+.titl{
+       width: 80%;
+    height:20%;
+    top: 155px;
+    position:relative;
+    display:block;
+  font-family: "Quantico", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+img {
+  width:60%;
+  display:block;
+  margin:0 auto;
+    padding-top:100px;
+    padding-bottom:15px;
+   
+}
+.imgtext{
+    width:60%;
+    left:20%;
+    position: relative;
+   display:block;
+    margin:0;
+    
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    img {
+      width:80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      width:100%;
+    }
+
+}
+
+
+
+
+
+  
+
+
+
+
+/*                QUANTICO  FONT
+
+
+
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+
+
+                ZILLA SLAB
+
+
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+*/
