@@ -1,0 +1,74 @@
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 5px;
+        }
+
+        p {
+            color: darkgrey;
+            padding-bottom: 5px;
+        
+            font-family: monospace;
+        }
+
+        a {
+            color: darkgrey;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+img{ width:25%;}
+ 
+        .bg {
+            /* The image used */
+            background-image: url("../../../Memes/ElmoMeme.jpeg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+
+        .NoEmph {
+            font-size: 30px;
+            font-weight: 300px;
+        }
+
+
+        .YDE {
+            font-size: 130px;
+            font-weight: 600px;
+  font-family: "Jolly Lodger", system-ui;
+  font-style: normal;
+        }
+
+.BigEmph{
+    font-size: 30px;
+}
+
+.pesant{
+          font-family: "Charm", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.MUC{
+                font-size: 25px;
+            font-weight: 600px;
+  font-family: "Jolly Lodger", system-ui;
+  font-style: normal;
+}
+.bye{
+                font-family: monospace;
+
+}
